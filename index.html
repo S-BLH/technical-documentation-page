@@ -1,1 +1,165 @@
-<h1> hello worl</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      width: 100%;
+    }
+
+    #navbar header {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .nav-link {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+
+    .main-section {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .main-section header {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    code {
+      font-family: monospace;
+      background-color: #f6f6f6;
+      padding: 5px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    /* Media Query */
+    @media screen and (max-width: 600px) {
+      .main-section {
+        padding: 10px;
+      }
+
+      .main-section header {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <title>Technical Documentation</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#section_1">Section 1</a>
+    <a class="nav-link" href="#section_2">Section 2</a>
+    <a class="nav-link" href="#section_3">Section 3</a>
+    <a class="nav-link" href="#section_4">Section 4</a>
+  </nav>
+
+  <main id="main-doc">
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper leo.</p>
+      <p>Curabitur nec semper tortor, nec bibendum nisl.</p>
+    </section>
+
+    <section id="section_1" class="main-section">
+      <header>Section 1</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Ut vitae enim vel sem consequat faucibus.</p>
+      <p>Phasellus eu dui vel lacus mattis facilisis.</p>
+      <code>console.log("Hello, World!");</code>
+      <code>var x = 5;</code>
+      <code>let name = "John";</code>
+      <code>function multiply(a, b) { return a * b; }</code>
+      <code>const PI = 3.14;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_2" class="main-section">
+      <header>Section 2</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Proin non semper orci.</p>
+      <code>if (condition) { doSomething(); }</code>
+      <code>for (let i = 0; i < 10; i++) { console.log(i); }</code>
+      <code>const arr = [1, 2, 3];</code>
+      <code>let sum = 0;</code>
+      <code>arr.forEach(num => sum += num);</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_3" class="main-section">
+      <header>Section 3</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>In tincidunt consectetur mauris, a aliquet ipsum sagittis in.</p>
+      <code>const person = { name: "Alice", age: 25 };</code>
+      <code>person.name = "Bob";</code>
+      <code>person.age += 1;</code>
+      <code>console.log(person);</code>
+      <code>let result = true;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_4" class="main-section">
+      <header>Section 4</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Nulla facilisi.</p>
+      <code>const colors = ["red", "green", "blue"];</code>
+      <code>colors.
+        push("yellow");</code>
+      <code>colors.pop();</code>
+      <code>console.log(colors);</code>
+      <code>let count = 0;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
