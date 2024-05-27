@@ -5,46 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>My Project</title>
+  <title>Technical Documentation</title>
 </head>
 
 <body>
-  <header>
-    <h1>My Project</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#section1">Section 1</a></li>
-      <li><a href="#section2">Section 2</a></li>
-      <li><a href="#section3">Section 3</a></li>
-    </ul>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#section_1">Section 1</a>
+    <a class="nav-link" href="#section_2">Section 2</a>
+    <a class="nav-link" href="#section_3">Section 3</a>
+    <a class="nav-link" href="#section_4">Section 4</a>
   </nav>
 
-  <main>
-    <section id="section1">
-      <h2>Section 1</h2>
+  <main id="main-doc">
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper leo.</p>
+      <p>Curabitur nec semper tortor, nec bibendum nisl.</p>
+    </section>
+
+    <section id="section_1" class="main-section">
+      <header>Section 1</header>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p>Nullam euismod, libero sed tincidunt bibendum, massa tortor faucibus ante, nec efficitur ipsum
-        neque id purus.</p>
+      <p>Ut vitae enim vel sem consequat faucibus.</p>
+      <p>Phasellus eu dui vel lacus mattis facilisis.</p>
+      <code>console.log("Hello, World!");</code>
+      <code>var x = 5;</code>
+      <code>let name = "John";</code>
+      <code>function multiply(a, b) { return a * b; }</code>
+      <code>const PI = 3.14;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
     </section>
 
-    <section id="section2">
-      <h2>Section 2</h2>
-      <p>Curabitur lacinia aliquam metus, vel molestie risus varius vel.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <section id="section_2" class="main-section">
+      <header>Section 2</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Proin non semper orci.</p>
+      <code>if (condition) { doSomething(); }</code>
+      <code>for (let i = 0; i < 10; i++) { console.log(i); }</code>
+      <code>const arr = [1, 2, 3];</code>
+      <code>let sum = 0;</code>
+      <code>arr.forEach(num => sum += num);</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
     </section>
 
-    <section id="section3">
-      <h2>Section 3</h2>
-      <p>Vivamus commodo, enim vel volutpat venenatis, mi ex viverra ligula, sed sodales ligula est nec justo.</p>
-      <p>Proin non pharetra felis, sed pellentesque neque.</p>
+    <section id="section_3" class="main-section">
+      <header>Section 3</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>In tincidunt consectetur mauris, a aliquet ipsum sagittis in.</p>
+      <code>const person = { name: "Alice", age: 25 };</code>
+      <code>person.name = "Bob";</code>
+      <code>person.age += 1;</code>
+      <code>console.log(person);</code>
+      <code>let result = true;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_4" class="main-section">
+      <header>Section 4</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Nulla facilisi.</p>
+      <code>const colors = ["red", "green", "blue"];</code>
+      <code>colors.push("yellow");</code>
+      <code>colors.pop();</code>
+      <code>console.log(colors);</code>
+      <code>let count = 0;</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2022 My Project. All rights reserved.</p>
-  </footer>
 </body>
 
 </html>
